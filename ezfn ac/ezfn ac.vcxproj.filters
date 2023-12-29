@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="worker.cpp">
+      <Filter>workspace\worker</Filter>
+    </ClCompile>
+    <ClCompile Include="communication.cpp">
+      <Filter>workspace\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="iat.cpp">
+      <Filter>workspace\protection\importaddresstable</Filter>
+    </ClCompile>
+    <ClCompile Include="tpm.cpp">
+      <Filter>workspace\protection\tpm_check</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>workspace\protection\tpm_check\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>workspace\protection\memorypatching</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="workspace">
+      <UniqueIdentifier>{e72e8692-6707-4ebe-a4ce-496c03330818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\worker">
+      <UniqueIdentifier>{15b1c542-937a-4ce0-b680-77df27fb2ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\communication">
+      <UniqueIdentifier>{67f60426-6bc1-4584-9dde-e286247deca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\safety">
+      <UniqueIdentifier>{932a6e6b-733f-463d-b471-860aaa9c7f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\protection">
+      <UniqueIdentifier>{0a690e6b-c7a7-4d57-bc97-ae8663b0ee8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\protection\importaddresstable">
+      <UniqueIdentifier>{59d8ce6b-4c77-4774-b354-61fd8c4b7620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\protection\tpm_check">
+      <UniqueIdentifier>{754a8f1c-f3e9-4cee-93c3-10038f308f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\protection\tpm_check\utils">
+      <UniqueIdentifier>{220c7f4a-a158-4b4e-ad7f-b0e39f82fd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\protection\memorypatching">
+      <UniqueIdentifier>{16155298-0339-4231-81ae-4333b552d8c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="workspace.h">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="worker.h">
+      <Filter>workspace\worker</Filter>
+    </ClInclude>
+    <ClInclude Include="communication.h">
+      <Filter>workspace\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>workspace\safety</Filter>
+    </ClInclude>
+    <ClInclude Include="safecall.hpp">
+      <Filter>workspace\safety</Filter>
+    </ClInclude>
+    <ClInclude Include="iat.h">
+      <Filter>workspace\protection\importaddresstable</Filter>
+    </ClInclude>
+    <ClInclude Include="tpm.h">
+      <Filter>workspace\protection\tpm_check</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>workspace\protection\tpm_check\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>workspace\protection\memorypatching</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
